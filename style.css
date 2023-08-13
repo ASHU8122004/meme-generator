@@ -1,8 +1,8 @@
 .meme-generator{
     font-family: "Roboto" , sans-serif;
     text-align: center;
+    background-image: url(jxbihs.avif);
 }
-
 .meme-generator img{
     height: 430px;
     object-fit: cover;
