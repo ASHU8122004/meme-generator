@@ -3,6 +3,12 @@
     text-align: center;
 }
 
+body{
+    background-image: url('photo-1597851065532-055f97d12e47.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 
 .meme-generator img{
     height: 430px;
@@ -13,7 +19,7 @@
     padding: 20px 20px;
     letter-spacing: 3px;
     transition: all 400ms ease;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px red;
 }
 
 .meme-generator .generate-meme-btn {
@@ -35,4 +41,8 @@
 
 .meme-generator .meme-author{
     margin: 8px;
+    color: white;
+}
+.meme-generator .meme-title{
+    color: white;
 }
