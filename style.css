@@ -8,6 +8,13 @@
     object-fit: cover;
 }
 
+.meme-generator img:hover{
+    padding: 20px 20px;
+    letter-spacing: 3px;
+    transition: all 400ms ease;
+    box-shadow: 10px 10px 10px black;
+}
+
 .meme-generator .generate-meme-btn {
     padding: 8px 20px;
     border: none;
